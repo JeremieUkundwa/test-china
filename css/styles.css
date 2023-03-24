@@ -359,8 +359,8 @@ option{
 }
 
 .text-section span{
-    color: #50A885;
-    opacity: 0.2;
+    color: #FF9E48;
+    /* opacity: 0.2; */
     font-size: 100px;
     font-family: 'inter'
 
@@ -607,3 +607,16 @@ form{
 
 
 /* end of partners */
+
+
+/* footer section */
+.footer-divider-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 160px;
+}
+svg{
+    color: #3B3C36;
+}
+/* end of footer section */
