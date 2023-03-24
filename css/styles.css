@@ -21,9 +21,58 @@ h4{
 }
 
 
+/* header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+.nav-links ul{
+    display: flex;
+    gap: 32px;
+    padding-left: 100px;
+}
+
+.nav-links ul li{
+    list-style-type: none;
+}
+
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 20px;
+    transition: all ease-in-out 0.2s;
+}
+
+.nav-links ul li a:hover{
+    width: 100px;
+    height: 64px;
+    background-color: #ffffff7a;
+    padding: 16px 24px;
+    color: #50A885;
+    font-weight: 600;
+    border-radius: 64px;
+    box-shadow: 0px 20px 50px rgba(255, 255, 255, 0.5);
+}
+
+.nav-links .active{
+    width: 100px;
+    height: 64px;
+    background-color: #fff;
+    padding: 16px 24px;
+    color: #50A885;
+    font-weight: 600;
+    border-radius: 64px;
+    box-shadow: 0px 20px 50px rgba(255, 255, 255, 0.5);
+}
+
+/* end of header */
+
 /* hero section */
 .hero-section{
-    background: url(../img/white\ overlay\ 2.png);
+    background: linear-gradient(#50a88570,#50a88570),url(../img/white\ overlay\ 2.png);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
