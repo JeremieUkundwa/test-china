@@ -21,6 +21,105 @@ h4{
 }
 
 
+/* hero section */
+.hero-section{
+    background: url(../img/white\ overlay\ 2.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+}
+
+.hero-section h1{
+    font-size: 40px;
+    width: 600px;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+/* service section */
+
+.middle-graphic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.about-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 100px 0px;
+    margin-bottom: 200px;
+}
+
+.about-content{
+    margin-left: 8%;
+    /* margin-top: 100px; */
+}
+
+.about-content h1{
+    font-size: 40px;
+    padding: 24px 0px;
+}
+
+.about-content p{
+    font-family: 'inter';
+    width: 500px;
+    font-size: 18px;
+    margin-top: 32px;
+    line-height: 28px;
+}
+
+
+.service-card-wrapper{
+    display: flex;
+    gap: 60px;
+    width: 50%;
+    margin-top: 70px;
+}
+
+.service-card{
+    width: 330px;
+    height: 215px;
+    border-radius: 20px;
+    background-color: #50A885;
+}
+
+.inside-content{
+    padding-top: 40px;
+    padding-left: 32px;
+}
+
+.service-card .graphics{
+    float: left;
+    margin-top: -20px;
+    margin-left: 300px;
+}
+
+.service-card h1{
+    color: #fff;
+}
+
+.service-card p{
+    font-family: 'inter';
+    color: #fff;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
 /* Product card */
 
 .products-card
