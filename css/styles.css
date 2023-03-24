@@ -72,7 +72,8 @@ header{
 
 /* hero section */
 .hero-section{
-    background: linear-gradient(#50a88570,#50a88570),url(../img/white\ overlay\ 2.png);
+    /* background: linear-gradient(#50a88570,#50a88570),url(../img/white\ overlay\ 2.png); */
+    background:url(../img/white\ overlay\ 2.png);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -85,18 +86,24 @@ header{
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 45%;
+    top: 55%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -55%);
 }
 
 .hero-section h1{
-    font-size: 40px;
-    width: 600px;
+    font-size: 48px;
+    width: 700px;
     text-align: center;
     color: #fff;
     padding-bottom: 32px;
     
+}
+
+.hero-section h3{
+    margin-top: 56px;
+    font-size: 40px;
+    color: #ffffff7c;
 }
 
 
@@ -174,13 +181,6 @@ header{
     color: #fff;
     font-weight: 300;
 }
-
-
-
-
-
-
-
 
 
 /* Product card */
@@ -311,12 +311,13 @@ option{
 
 
 /* founder section */
-.wrapper
+.founder-wrapper
 {
-    margin-top: 100px;
+    margin-top: 200px;
     display: flex;
     flex-direction: row;
     gap: 100px;
+    padding-left: 100px;
 }
 
 .word-section{
@@ -472,23 +473,32 @@ option{
     font-size: 40px;
 }
 
+.title-number{
+    color: #FFE506;
+    padding-left: 80%;
+    padding-top: 8%;
+}
+
 /* form section */
 
 .contact-wrapper{
-    background-color: rgb(255, 229, 6, 0.02);
+    background-color: rgb(255, 229, 6, 0.1);
     margin-left: 0px;
     margin-top: 200px;
     height: 800px;
+    
 }
 
 
 .form-section{
     background-color: #F2F8F5;
     width: 444px;
-    height: 700px;
+    height: 650px;
     border-radius: 20px;
     padding-left: 48px;
-    padding-top: 56px;
+    padding-top: 64px;
+    outline: 20px solid #ffe606c2;
+    box-shadow: 0px 4px 100px #d9d9d9;
 }
 
 
@@ -512,7 +522,7 @@ form{
 }
 
 .input-area label{
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .input-area input, textarea
@@ -559,6 +569,7 @@ form{
     font-family: 'DM serif display';
     font-size: 16px;
     margin-top: 24px;
+    transition: all ease-in-out 0.2s;
 }
 
 .button input:hover
@@ -569,3 +580,30 @@ form{
 }
 
 /* ======================== contact-section */
+
+/* partners */
+.partners{
+    width: auto;
+    height: 200px;
+    background-color: #d9d9d91e;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 64px;
+    
+}
+
+.partners img{
+    filter: grayscale(1);
+    transition: all ease-in-out 0.2s;
+
+}
+
+.partners img:hover{
+    filter: grayscale(0);
+}
+
+
+
+/* end of partners */
