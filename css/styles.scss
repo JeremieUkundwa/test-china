@@ -8,7 +8,7 @@
 
 /* headings */
 
-h1,h2, p{
+h1,h2,h3,h5{
     font-family: 'DM serif Display', serif;
     text-transform: capitalize;
     color: #3B3C36;
@@ -19,6 +19,10 @@ h4{
     font-family: 'DM Serif Display', serif;
     font-size: 40px;
     font-weight: 400;
+}
+
+p{
+    font-family: 'inter';
 }
 
 
@@ -39,6 +43,7 @@ header{
     height: 90px;
     // background: linear-gradient(108.97deg, #50A885 30.34%, rgba(80, 168, 133, 0) 124.28%);
     background-color: #fff;
+    box-shadow: 0 2px 50px rgb(80, 168, 133, 0.1);
     
 }
 
@@ -161,7 +166,8 @@ header{
 .about-content a{
     color: #50A885;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 600;
     display: flex;
     align-items: center;
     gap: 16px;
@@ -202,6 +208,12 @@ header{
 .about-content h1{
     font-size: 40px;
     padding: 24px 0px;
+}
+
+.about-content h5{
+    color: #FF9E48;
+    font-size: 40px;
+    
 }
 
 .about-content p{
@@ -520,11 +532,11 @@ option{
 .contact-wrapper
 {
     margin-left: 100px;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .contact-section{
-    padding-top: 60px;
+    padding-top: 75px;
     display: flex;
     gap: 40px;
     align-items: center;
@@ -607,7 +619,7 @@ option{
 }
 
 form{
-    padding-top: 36px;
+    padding-top: 24px;
 }
 
 
@@ -618,6 +630,7 @@ form{
 
 .input-area label{
     font-size: 15px;
+    font-weight: 500;
 }
 
 .input-area input, textarea
@@ -731,8 +744,14 @@ form{
     gap: 16px;
 }
 
+.contact-number{
+    padding-left: 32px;
+}
+
 .contact-number span{
     color: #3B3C36;
+    padding-left: 10px;
+    font-size: 15px;
 }
 
 svg{
