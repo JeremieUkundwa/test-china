@@ -33,7 +33,7 @@ header {
   z-index: 9999;
   width: 100%;
   height: 90px;
-  background: linear-gradient(108.97deg, #50A885 30.34%, rgba(80, 168, 133, 0) 124.28%);
+  background-color: #fff;
 }
 
 .chat {
@@ -56,7 +56,7 @@ header {
 }
 
 .nav-links ul li a {
-  color: #fff;
+  color: #50A885;
   text-decoration: none;
   padding: 14px 20px;
   transition: all ease-in-out 0.2s;
@@ -73,12 +73,23 @@ header {
   box-shadow: 0px 20px 50px rgba(255, 255, 255, 0.3);
 }
 
+.nav-links ul li a:hover {
+  width: 100px;
+  height: 64px;
+  background-color: rgba(80, 168, 133, 0.2);
+  padding: 16px 24px;
+  color: #50A885;
+  font-weight: 600;
+  border-radius: 64px;
+  box-shadow: 0px 20px 50px rgba(255, 255, 255, 0.3);
+}
+
 .nav-links .active {
   width: 100px;
   height: 64px;
-  background-color: #fff;
+  background-color: #50A885;
   padding: 16px 24px;
-  color: #50A885;
+  color: #fff;
   font-weight: 600;
   border-radius: 64px;
   box-shadow: 0px 20px 50px rgba(255, 255, 255, 0.5);
@@ -118,6 +129,20 @@ header {
   margin-top: 56px;
   font-size: 40px;
   color: rgba(255, 255, 255, 0.4862745098);
+}
+
+.about-content a {
+  color: #50A885;
+  text-decoration: none;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 40px;
+}
+
+.about-content svg {
+  color: #50A885;
 }
 
 /* service section */
@@ -164,7 +189,7 @@ header {
 }
 
 .service-card {
-  width: 330px;
+  width: 340px;
   height: 250px;
   border-radius: 20px;
   background-color: #50A885;
@@ -188,7 +213,9 @@ header {
 .service-card p {
   font-family: "inter";
   color: #fff;
+  width: 300px;
   font-weight: 300;
+  font-size: 16px;
   padding-top: 12px;
 }
 
