@@ -6,6 +6,10 @@
     scroll-behavior: smooth;
 }
 
+html{
+    max-width: 1440px;
+}
+
 /* headings */
 
 h1,h2,h3,h5{
@@ -45,6 +49,14 @@ header{
     background-color: #fff;
     box-shadow: 0 2px 50px rgb(80, 168, 133, 0.1);
     
+}
+
+@media only screen and (max-width: 768px) {
+    
+}
+
+@media only screen and (min-width: 480px) {
+
 }
 
 .chat{
@@ -161,6 +173,13 @@ header{
     margin-top: 56px;
     font-size: 40px;
     color: #ffffff7c;
+}
+
+@media only screen and (min-width: 768px) {
+    .hero-section h1{
+        font-size: 32px;
+        width: 50%;
+    }
 }
 
 .about-content a{
@@ -824,3 +843,7 @@ html {
         opacity: 1;
     }
 }
+
+
+// responsiveness
+
