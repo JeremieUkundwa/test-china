@@ -41,9 +41,15 @@ header {
   left: 0;
   z-index: 9999;
   width: 100%;
-  height: 80px;
+  height: 70px;
   background-color: #fff;
   box-shadow: 0 2px 50px rgba(80, 168, 133, 0.1);
+}
+
+/* added css for logo*/
+
+.logo img{
+  width: 70%;
 }
 
 .chat {
@@ -69,6 +75,7 @@ header {
   color: #50A885;
   text-decoration: none;
   padding: 14px 20px;
+  font-size: 14px;
   transition: all ease-in-out 0.2s;
 }
 
@@ -87,7 +94,7 @@ header {
   width: 100px;
   height: 64px;
   background-color: rgba(80, 168, 133, 0.2);
-  padding: 16px 24px;
+  padding: 12px 24px;
   color: #50A885;
   font-weight: 600;
   border-radius: 64px;
@@ -98,7 +105,7 @@ header {
   width: 100px;
   height: 64px;
   background-color: #50A885;
-  padding: 16px 24px;
+  padding: 12px 24px;
   color: #fff;
   font-weight: 600;
   border-radius: 64px;
@@ -107,22 +114,23 @@ header {
 
 /* end of header */
 /* hero section */
-.hero-section {
-  /* background: linear-gradient(#50a88570,#50a88570),url(../img/white\ overlay\ 2.png); */
-  background: url(../img/bg-2.jpg);
+/* .hero-section {
+  background: linear-gradient(#50a88570,#50a88570),url(../img/white\ overlay\ 2.png); */
+  /* background: url(../img/white\ overlay\ 2.png);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   height: 90vh;
-}
+} */
 
-.hero-section-2{
-  background: url(../img/bg.png);
+
+/* .hero-section-2{
+  background: url(../img/bg-2.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     height: 90vh;
-}
+} */
 
 
 .hero-text-content {
@@ -847,5 +855,49 @@ html {
 .team-image img:hover{
   transform: scale(1.1,1.1);
   filter: grayscale(0);
+  transition: all linear 0.2s;
+}
+
+
+/* certificates css */
+.certificate-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.certificate-title h1{
+  font-size: 48px;
+}
+
+.certificate-title h3{
+  color: #50A885;
+  font-family: 'inter', serif ;
+  font-size: 16px;
+  padding-bottom: 24px;
+}
+
+.certificates-flex-container{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 0px 40px;
+}
+
+.certificate-container {
+  width: 50%;
+} 
+
+.certificate-container img {
+  width: 100%;
+  transition: all linear 0.2s;
+}
+
+.certificate-container img:hover {
+  transform: scale(1.2, 1.2);
   transition: all linear 0.2s;
 }
