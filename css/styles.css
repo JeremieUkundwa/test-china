@@ -9,6 +9,7 @@
 
 html{
   transition: all ease-in-out 0.5s;
+  max-width: auto;
 }
 
 /* headings */
@@ -35,7 +36,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0px 160px;
-  padding-top: 0px;
+  padding-top: 8px;
   position: fixed;
   top: 0;
   left: 0;
@@ -839,8 +840,8 @@ html {
 }
 
 .ceo-team:hover{
-  border: 5px solid rgba(80, 168, 133, 0.1);
-  outline: 4px solid #50A885
+  border: 5px solid rgba(255, 230, 6, 0.2);
+  outline: 4px solid rgb(255, 158, 72, 1);
 }
 
 .team h5{
@@ -848,7 +849,7 @@ html {
 }
 
 .team-image img{
-  filter: grayscale(1);
+  /* filter: grayscale(1); */
   transition: all linear 0.2s;
 }
 
