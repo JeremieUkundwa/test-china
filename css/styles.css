@@ -765,48 +765,7 @@ html {
   }
 }/*# sourceMappingURL=styles.css.map */
 
-@media only screen and (max-width: 768px) {
 
-  .hero-section {
-    overflow: hidden;
-  }
-
-  .hero-text-content {
-    position: absoulte;
-    left: 37%;
-    top: 50%;
-    transform: translate(-50%, -37%);
-    overflow: hidden;
-  }
-
-  .hero-text-content h1 {
-    font-size: 32px;
-    width: 100%;
-  }
-
-  /* logo-graphic */
-  .middle-graphic {
-    display: block;
-
-  }
-
-  .about-wrapper {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    padding: 0;
-  }
-
-  .about-content {
-    margin: 0px;
-  }
-
-  /* service cards */
-  .service-card-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
 
 /* added team page */
 
@@ -901,4 +860,66 @@ html {
 .certificate-container img:hover {
   transform: scale(1.2, 1.2);
   transition: all linear 0.2s;
+}
+
+@media only screen and (max-width: 768px) {
+
+  html{
+    width:auto;
+  }
+
+  .nav-links{
+    display: none;
+  }
+
+
+  .hero-section {
+    width: auto;
+  }
+
+  .hero-text-content {
+    position: absoulte;
+    left: 37%;
+    top: 50%;
+    transform: translate(-50%, -37%);
+    overflow: hidden;
+  }
+
+  .hero-text-content h1 {
+    font-size: 32px;
+    width: 100%;
+  }
+
+  header{
+    width: auto;
+  }
+
+  /* logo-graphic */
+  .middle-graphic {
+    display: block;
+
+  }
+
+  .about-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+
+  .about-content {
+    margin: 24px;
+  }
+
+    .about-content p {
+      font-size: 16px;
+      width: 360px;
+    }
+
+  /* service cards */
+  .service-card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 24px;
+  }
 }
