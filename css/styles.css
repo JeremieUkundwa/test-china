@@ -874,7 +874,7 @@ html {
 @media only screen and (max-width: 360px) {
 
   html{
-    width:auto;
+    width:360px;
   }
 
   .nav-links{
@@ -970,9 +970,15 @@ html {
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
-      width: auto;
+      width: 360px;
       margin-left: 0%;
+      padding-left: 0%;
     }
+
+  .contact-section div img{
+    width: 60%;
+    padding-left: 10%;
+  }
   
   .contacts-rectangle {
       width: auto;
@@ -991,7 +997,40 @@ html {
   .form-section {
       transform: scale(0.7, 0.7);
     }
+
+  .footer-divider-line{
+    margin-top: 400px;
+  }
+
+  .footer-divider-line img{
+    width: 100%;
+  }
+
+  .footer-section{
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-number span{
+    font-size: 12px;
+  }
+
+  .social-medias div{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contact-number div{
+    width: max-content;
+  }
+
+
+
 }
+
+
 
 
 
