@@ -977,7 +977,7 @@ html {
 
   .contact-section div img{
     width: 60%;
-    padding-left: 10%;
+    margin-left: 10%;
   }
   
   .contacts-rectangle {
@@ -1024,6 +1024,20 @@ html {
 
   .contact-number div{
     width: max-content;
+  }
+
+  .contact-info{
+    padding-top: 64px;
+  }
+
+  .copyright-text{
+    margin: 0px;
+    margin-left: 16px;
+  }
+
+  .copyright-text span{
+    font-size: 12px;
+
   }
 
 
