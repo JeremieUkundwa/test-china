@@ -1042,13 +1042,41 @@ html {
 
 
 
+  /* ------------ responsiveness for about page-------- */
+  .team-flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 2000px;
+    gap: 16px;
+  }
+
+  .team-image{
+    transform: scale(0.9);
+
+  }
+
+  .certificate-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .certificate-title h1{
+    text-align: center;
+  }
+
+  .certificates-flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -80%;
+  }
+
+  .certificate-container{
+    width: 100%;
+    
+  }
 }
 
 
 
-
-
-@media only screen and (max-width: 480px)
-{
-
-}
