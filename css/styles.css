@@ -905,11 +905,6 @@ html {
     width: auto;
   }
 
-  /* logo-graphic */
-  .middle-graphic {
-    display: block;
-
-  }
 
   .about-wrapper {
     display: flex;
@@ -922,7 +917,7 @@ html {
     
   }
 
-    .about-content p {
+  .about-content p {
       font-size: 16px;
       width: 98%;
     }
@@ -933,70 +928,72 @@ html {
     flex-wrap: wrap;
     margin-left: 10px;
   }
+  .products-image-container {
+      overflow: hidden;
+      margin-top: 80px;
+    }
+  
+  .flex-container {
+      display: flex;
+      flex-direction: row;
+      overflow: hidden;
+      height: 800px;
+      padding-top: 0%;
+    }
+  
+  .products-card {
+      transform: scale(0.8, 0.8);
+      margin-top: -152%;
+      margin-left: -8px;
+    }
+  
+  .product {
+      transform: scale(0.7, 0.7);
+    }
+  
+  .products-card h1 {
+      font-size: 32px;
+    }
+  
+  .partners {
+      width: auto;
+      margin-top: 200px;
+      height: 140px;
+    }
+  
+  .partners img {
+      width: 25%;
+    }
+  
+  .contact-wrapper,
+  .contact-section {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: auto;
+      margin-left: 0%;
+    }
+  
+  .contacts-rectangle {
+      width: auto;
+      height: 400px;
+      margin: 0%;
+    }
+  
+  .contacts-rectangle h1 {
+      font-size: 32px;
+    }
+  
+  .links {
+      transform: scale(0.7, 0.7);
+    }
+  
+  .form-section {
+      transform: scale(0.7, 0.7);
+    }
 }
 
-.products-image-container{
-  overflow: hidden;
-  margin-top: 80px;
-}
 
-.flex-container{
-  display: flex;
-  flex-direction: row;
-  overflow: hidden;
-  height: 800px;
-  padding-top: 0%;
-}
-
-.products-card{
-  transform: scale(0.8, 0.8);
-  margin-top: -152%;
-  margin-left: -8px;
-}
-
-.product{
-  transform: scale(0.7, 0.7);
-}
-
-.products-card h1{
-  font-size: 32px;
-}
-
-.partners{
-  width: auto;
-  margin-top: 200px;
-  height: 140px;
-}
-
-.partners img{
-  width: 25%;
-}
-
-.contact-wrapper, .contact-section{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  width: auto;
-  margin-left: 0%;
-}
-
-.contacts-rectangle{
-  width: auto;
-  height: 400px;
-  margin: 0%;
-}
-
-.contacts-rectangle h1{
-  font-size: 32px;
-}
-
-.links{
-  transform: scale(0.7, 0.7);
-}
-
-.form-section{
-  transform: scale(0.7, 0.7);
-}
 
 @media only screen and (max-width: 480px)
 {
