@@ -292,7 +292,7 @@ header {
   width: 374px;
   height: 421px;
   border-radius: 20px;
-  margin-top: -25%;
+  margin-top: -23%;
   margin-left: 4%;
 }
 
@@ -355,7 +355,8 @@ option {
 /* product image */
 .products-image-container {
   background: rgba(80, 168, 133, 0.08);
-  height: 344px;
+  height: 300px;
+  width: auto;
   padding-left: 30%;
   
 }
@@ -364,7 +365,8 @@ option {
   display: flex;
   flex-direction: row;
   gap: 24px;
-  padding-top: 3%;
+  
+  padding-top: 1%;
   padding-left: 16px;
 }
 
@@ -684,7 +686,12 @@ form {
   display: flex;
   justify-content: space-between;
   margin-top: 100px;
-  padding: 0 300px;
+  padding: 0 100px;
+}
+
+.footer-section img
+{
+  padding-left: 60px;
 }
 
 .footer-divider-line {
@@ -724,7 +731,7 @@ a > svg:hover {
 }
 
 .copyright-text {
-  margin-left: 19%;
+  margin-left: 50%;
   margin-top: 40px;
 }
 
@@ -871,10 +878,10 @@ html {
 
 /* responsiveness */
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 768px) {
 
   html{
-    width:360px;
+    width:540px;
   }
 
   .nav-links{
@@ -928,23 +935,26 @@ html {
     flex-wrap: wrap;
     margin-left: 10px;
   }
+
+
   .products-image-container {
       overflow: hidden;
-      margin-top: 80px;
+      padding-top: 20px;
+      height: 800px;
     }
   
   .flex-container {
       display: flex;
       flex-direction: row;
       overflow: hidden;
-      height: 800px;
+      height: 500px;
       padding-top: 0%;
     }
   
   .products-card {
-      transform: scale(0.8, 0.8);
-      margin-top: -152%;
+      /* transform: scale(0.8, 0.8);  */
       margin-left: -8px;
+      position: relative;
     }
   
   .product {
@@ -956,10 +966,13 @@ html {
     }
   
   .partners {
-      width: auto;
       margin-top: 200px;
       height: 140px;
     }
+
+  .container{
+    width: 576px;
+  }
   
   .partners img {
       width: 25%;
@@ -980,11 +993,16 @@ html {
     margin-left: 10%;
   }
   
-  .contacts-rectangle {
-      width: auto;
-      height: 400px;
+  /* .contacts-rectangle {
+      width: 500px;
+      position: ;
+      height: 600px;
       margin: 0%;
-    }
+    } */
+
+  .links{
+    padding: 0;
+  }
   
   .contacts-rectangle h1 {
       font-size: 32px;
@@ -1083,7 +1101,7 @@ html {
   }
 }
 
-/* 568px screen */
+/* 576px screen */
 
 /* responsiveness */
 
