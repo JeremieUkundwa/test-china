@@ -1171,24 +1171,27 @@ html {
   .products-image-container {
     overflow: hidden;
     margin-top: 80px;
+    height: 450px;
+    width: 576px;
   }
 
   .flex-container {
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    height: 800px;
-    padding-top: 0%;
+    height: 300px;
+    margin-top: 35%;
   }
 
   .products-card {
-    transform: scale(0=1);
-    margin-top: -80%;
+    transform: scale(0.8);
+    margin-top: -120%;
     margin-left: 95px;
   }
 
   .product {
     transform: scale(0.7, 0.7);
+
   }
 
   .products-card h1 {
