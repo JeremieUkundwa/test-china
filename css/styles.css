@@ -994,10 +994,12 @@ html {
     width: 768px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    padding: 0px;
   }
 
   .contact-section .arrow{
-    display: none;
+    /* display: none; */
   }
 
   
@@ -1009,7 +1011,8 @@ html {
   .contacts-rectangle {
       transform: scale(0.7);
       margin-top: -20%;
-      margin-left: -10%;
+      margin-left: -0%;
+      height: 500px;
     }
 
   .links{
@@ -1035,7 +1038,7 @@ html {
     }
   
   .contact-info img{
-    transform: scale(0.3);
+    transform: scale(0.6);
   }
   
   .form-section {
