@@ -981,27 +981,35 @@ html {
       width: 25%;
     }
   
-  .contact-wrapper,
-  .contact-section {
+  .contact-wrapper
+ {
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
-      width: 360px;
+      width: 768px;
       margin-left: 0%;
       padding-left: 0%;
     }
 
+  .contact-section{
+    margin-left:-50px;
+    
+    gap: 0px;
+  }
+
+  .contact-section .arrow{
+    display: none;
+  }
+
+  
   .contact-section div img{
     width: 60%;
     margin-left: 10%;
   }
   
-  /* .contacts-rectangle {
-      width: 500px;
-      position: ;
-      height: 600px;
-      margin: 0%;
-    } */
+  .contacts-rectangle {
+      transform: scale(0.7);
+    }
 
   .links{
     padding: 0;
