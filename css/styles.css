@@ -885,7 +885,7 @@ html {
   }
 
   .nav-links{
-    display: none;
+    display: none
   }
 
 
@@ -909,7 +909,7 @@ html {
   }
 
   header{
-    width: auto;
+    width: 768px;
   }
 
 
@@ -987,14 +987,13 @@ html {
       flex-direction: column;
       flex-wrap: wrap;
       width: 768px;
-      margin-left: 0%;
-      padding-left: 0%;
     }
 
   .contact-section{
-    margin-left:-50px;
-    
-    gap: 0px;
+    position: relative;
+    width: 768px;
+    display: flex;
+    flex-direction: column;
   }
 
   .contact-section .arrow{
@@ -1003,25 +1002,41 @@ html {
 
   
   .contact-section div img{
-    width: 60%;
+    /* width: 60%; */
     margin-left: 10%;
   }
   
   .contacts-rectangle {
       transform: scale(0.7);
+      margin-top: -20%;
+      margin-left: -10%;
     }
 
   .links{
-    padding: 0;
+    transform: scale(1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: -100px;
+    padding: 0px;
+  }
+
+  .links span{
+    font-size: 14px;
+    width: fit-content;
+  }
+
+  .contact-info{
+
   }
   
   .contacts-rectangle h1 {
       font-size: 32px;
     }
   
-  .links {
-      transform: scale(0.7, 0.7);
-    }
+  .contact-info img{
+    transform: scale(0.3);
+  }
   
   .form-section {
       transform: scale(0.7, 0.7);
@@ -1043,9 +1058,9 @@ html {
   }
 
 /* added contact */
-  .contact-info{
+  /* .contact-info{
     margin-left: 56px;
-  }
+  } */
 
   .contact-number span{
     font-size: 12px;
