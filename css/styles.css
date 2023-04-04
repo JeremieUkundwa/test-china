@@ -876,9 +876,9 @@ html {
 
 @media only screen and (max-width: 768px) {
 
-  html{
+  /* html{
     width:768px;
-  }
+  } */
 
   .nav-links{
     display: none
@@ -1132,9 +1132,9 @@ html {
 
 @media only screen and (max-width: 576px) {
 
-  html {
+  /* html {
     width: 540px;
-  }
+  } */
 
   .nav-links {
     display: none;
@@ -1352,10 +1352,10 @@ html {
 
 @media only screen and (max-width: 480px) {
 
-  html {
+  /* html {
     width: 460px;
     
-  }
+  } */
 
   .nav-links {
     display: none;
@@ -1423,21 +1423,28 @@ html {
     margin-top: 30px;
   }
   .links span {
-    font-size: 14px;
+    font-size: 16px;
     width: 172%;
   }
   .contacts-rectangle .contact-info {
     transform: none;
   }
+  .contacts-rectangle {
+    height: 450px;
+  }
   .arrow {
     transform: rotate(90deg);
   }
   .form-section {  
-    height: 550px;
+    height: 575px;
     margin-top: -20vw;
   }
   .footer-divider-line {
     margin-top: 50px;
+  }
+  .input-area label {
+    font-size: 16px;
+    font-weight: 500;
   }
 }
 
