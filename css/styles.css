@@ -872,10 +872,6 @@ html {
 }
 
 
-
-
-
-
 /* responsiveness */
 
 @media only screen and (max-width: 768px) {
@@ -1349,4 +1345,72 @@ html {
     width: 100%;
   }
 }
+
+
+
+/* responsiveness */
+
+@media only screen and (max-width: 480px) {
+
+  html {
+    width: 460px;
+    
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+
+  .about-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .about-content {
+    margin-left: 18px;
+
+  }
+
+  .about-content p {
+    font-size: 16px;
+    width: 95%;
+  }
+
+  /* service cards */
+  .service-card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 55px;
+    gap: 128px;
+  }
+
+  .service-card{
+    transform: scale(1.2);
+  }
+
+  /* Partner */
+  .partners {
+    width: 460px;
+  }
+
+  /* Contact */
+  contact-wrapper, .contact-section {
+    width: 460px;
+  }
+  .contacts-rectangle {
+    margin-top: 0%;
+  }
+  .contact-wrapper {
+    height: auto;
+  }
+  .contact-info {
+    padding-top: 0px;
+    padding-right: 0px;
+}
+}
+
+
+
 
