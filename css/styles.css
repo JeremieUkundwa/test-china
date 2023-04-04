@@ -1387,7 +1387,7 @@ html {
   }
 
   .service-card{
-    transform: scale(1.2);
+    transform: scale(1.14);
   }
 
   /* Partner */
@@ -1396,7 +1396,7 @@ html {
   }
 
   /* Contact */
-  contact-wrapper, .contact-section {
+  .contact-wrapper, .contact-section {
     width: 460px;
   }
   .contacts-rectangle {
@@ -1445,6 +1445,10 @@ html {
   .input-area label {
     font-size: 16px;
     font-weight: 500;
+  }
+  .round-circles img{
+    margin-left: 25px !important;
+    margin-top: -20px;
   }
 }
 
