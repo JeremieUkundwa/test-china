@@ -1404,11 +1404,41 @@ html {
   }
   .contact-wrapper {
     height: auto;
+    width: 460px;
   }
   .contact-info {
     padding-top: 0px;
     padding-right: 0px;
-}
+  }
+  .card-title br{
+    display: none;
+  }
+  .contact-section div img {
+    width: 58%;
+    margin-left: 0px;
+  }
+  .links {
+    display: grid;
+    margin-left: -24vw;
+    margin-top: 30px;
+  }
+  .links span {
+    font-size: 14px;
+    width: 172%;
+  }
+  .contacts-rectangle .contact-info {
+    transform: none;
+  }
+  .arrow {
+    transform: rotate(90deg);
+  }
+  .form-section {  
+    height: 550px;
+    margin-top: -20vw;
+  }
+  .footer-divider-line {
+    margin-top: 50px;
+  }
 }
 
 
