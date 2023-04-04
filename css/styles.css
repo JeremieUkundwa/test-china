@@ -881,7 +881,7 @@ html {
 @media only screen and (max-width: 768px) {
 
   html{
-    width:540px;
+    width:768px;
   }
 
   .nav-links{
@@ -932,29 +932,32 @@ html {
   /* service cards */
   .service-card-wrapper {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     margin-left: 10px;
+    transform: scale(0.95);
   }
 
 
   .products-image-container {
       overflow: hidden;
       padding-top: 20px;
-      height: 800px;
+      height: 500px;
     }
   
   .flex-container {
       display: flex;
       flex-direction: row;
       overflow: hidden;
-      height: 500px;
-      padding-top: 0%;
+      height: 300px;
+      margin-top: 35%;
+      margin-left: -50%;
     }
   
   .products-card {
-      /* transform: scale(0.8, 0.8);  */
-      margin-left: -8px;
-      position: relative;
+      transform: scale(0.8, 0.8); 
+      margin-left: 25%;
+      margin-top: -85%;
+      
     }
   
   .product {
@@ -966,7 +969,7 @@ html {
     }
   
   .partners {
-      margin-top: 200px;
+      margin-top: 400px;
       height: 140px;
     }
 
@@ -1160,7 +1163,7 @@ html {
   .service-card-wrapper {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 80px;
+    margin-left: 110px;
     gap: 128px;
   }
 
@@ -1199,8 +1202,8 @@ html {
   }
 
   .partners {
-    width: auto;
-    margin-top: 200px;
+    width: 576px;
+    margin-top: 400px;
     height: 140px;
   }
 
