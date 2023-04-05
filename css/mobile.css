@@ -73,11 +73,47 @@
     font-style: normal;
     font-size: 12px;
 }
+
+.product-card{
+    width: 280px;
+    height: 220px;
+    margin: 10px;
+    margin-left: 70px;
+    background: #FFE506;
+    border-radius: 20px;
+}
+
+.product-card span{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    color: #FF9E48;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    margin: auto;
+    margin-right: 20px;
+}
+
+.product-card h1{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+    color: #50A885;
+}
+.product-card .product-line{
+    width: 90px;
+    height: 6px;
+}
 @media only screen and (max-width: 480px) {
     .card-vision-mission{
         width: 300px!important;
         margin: 10px!important;
-        margin-left: 15%!important;
+        margin-left: 12%!important;
     }
     .card-vision-mission .card-body .graphics {
         margin-left: 260px;
