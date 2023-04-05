@@ -47,8 +47,67 @@
     <!-- end of inter font -->
 
     <!-- bootstrap -->
+    <style>
+      .navbar-menu {
+          display: none;
+        }
+
+        @media (min-width: 768px) {
+          .navbar-menu {
+            display: flex;
+          }
+          .navbar-toggle {
+            display: none;
+          }
+        }
+
+        .navbar-toggle {
+          cursor: pointer;
+        }
+
+        .icon {
+          width: 30px;
+          height: 20px;
+          position: relative;
+        }
+
+        .icon:before,
+        .icon:after {
+          content: "";
+          width: 100%;
+          height: 2px;
+          background-color: #000;
+          position: absolute;
+          left: 0;
+        }
+
+        .icon:before {
+          top: -6px;
+        }
+
+        .icon:after {
+          bottom: -6px;
+        }
+
+        .navbar-menu.show {
+          display: flex;
+        }
+
+    </style>
   </head>
   <body style="overflow-x: hidden">
+    <nav>
+      <div class="navbar-toggle">
+        <div class="icon"></div>
+      </div>
+      <ul class="navbar-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>    
+
+
     <div class="middle-logo">
       <img src="./img/green logo.png" alt="" class="middle-logo-graphic" />
     </div>
@@ -290,6 +349,14 @@
   </div>
     
   <!-- end contact section -->
-  
+  <script>
+    const navbarToggle = document.querySelector(".navbar-toggle");
+    const navbarMenu = document.querySelector(".navbar-menu");
+
+    navbarToggle.addEventListener("click", () => {
+      navbarMenu.classList.toggle("show");
+    });
+
+  </script>
   </body>
 </html>

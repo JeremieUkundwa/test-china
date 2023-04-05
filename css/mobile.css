@@ -286,6 +286,9 @@ body{
         transform: none;
     }
     .contacts-rectangle {
+        transform: scale(0.6);
+    }
+    .contacts-rectangle {
         height: 450px;
     }
     .arrow {
