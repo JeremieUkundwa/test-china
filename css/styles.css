@@ -29,6 +29,9 @@ h4 {
 p {
   font-family: "inter";
 }
+nav{
+  display: none!important;
+}
 
 /* header */
 header {
@@ -1124,6 +1127,7 @@ html {
   .certificate-container{
     width: 100%; 
   }
+  
 }
 
 /* 576px screen */
@@ -1344,6 +1348,12 @@ html {
   .certificate-container {
     width: 100%;
   }
+  header{
+    display: none;
+  }
+  nav{
+    display: flex !important;
+  }
 }
 
 
@@ -1436,19 +1446,41 @@ html {
     transform: rotate(90deg);
   }
   .form-section {  
-    height: 575px;
+    height: 620px;
     margin-top: -20vw;
   }
   .footer-divider-line {
     margin-top: 50px;
   }
   .input-area label {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
   }
+  .title-section h1 {
+    font-size: 30px;
+  }
+  .button input {
+    font-size: 36px;
+}
   .round-circles img{
     margin-left: 25px !important;
     margin-top: -20px;
+  }
+  .navbar-nav{
+    margin-left: 10vw!important;
+  }
+
+  .navbar-brand{
+    display: flex !important;
+    position: fixed !important;
+    margin-left: 35vw !important;
+    margin-top: 15px !important;
+  }
+  header{
+    display: none;
+  }
+  nav{
+    display: flex !important;
   }
 }
 

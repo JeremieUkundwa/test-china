@@ -1,0 +1,82 @@
+.middle-logo img{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+}
+.card-who-we-are{
+    margin: 10px;
+    border: none;
+}
+.card-who-we-are h2,.card-who-we-are span, .card-who-we-are img{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+.card-who-we-are span{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    color: #FF9E48;
+}
+.card-who-we-are h2{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 50px;
+    text-align: center;
+    color: #50A885;
+}
+.card-who-we-are img{
+    width: 70px;
+    height: 6px;
+}
+
+.card-who-we-are .card-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #3B3C36;
+    padding-top: 10px;
+}
+.card-vision-mission{
+    width: 42vw;
+    margin: 10px;
+    height: 150px;
+    background: linear-gradient(107.61deg, #5069A8 -89.64%, #59AE8C 14.7%, #64B595 95.9%);
+    border-radius: 20px;
+}
+
+.card-vision-mission .card-body .graphics{
+    margin-top: -19px;
+    margin-left: 172px;
+    width: 50px;
+}
+.card-vision-mission .card-title{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.card-vision-mission .card-text{
+    color: #fff;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+}
+@media only screen and (max-width: 480px) {
+    .card-vision-mission{
+        width: 45vw;
+        margin: 10px;
+        margin-left: 28%;
+    }
+}
